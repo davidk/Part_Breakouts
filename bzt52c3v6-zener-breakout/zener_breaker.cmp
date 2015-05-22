@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/14/2015 2:55:40 PM
+
+BeginCmp
+TimeStamp = /552D8923;
+Reference = D1;
+ValeurCmp = ZENER;
+IdModule  = BZT52C3V6-E3-08;
+EndCmp
+
+BeginCmp
+TimeStamp = /552D890A;
+Reference = D2;
+ValeurCmp = ZENER;
+IdModule  = BZT52C3V6-E3-08;
+EndCmp
+
+BeginCmp
+TimeStamp = /552D8917;
+Reference = D3;
+ValeurCmp = ZENER;
+IdModule  = BZT52C3V6-E3-08;
+EndCmp
+
+BeginCmp
+TimeStamp = /552D891D;
+Reference = D4;
+ValeurCmp = ZENER;
+IdModule  = BZT52C3V6-E3-08;
+EndCmp
+
+BeginCmp
+TimeStamp = /552D8951;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /552D8944;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+EndListe
