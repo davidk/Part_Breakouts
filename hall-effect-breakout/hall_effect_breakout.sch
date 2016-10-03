@@ -1,0 +1,184 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ah180n-wg-7
+LIBS:tcs40dlrlfct
+LIBS:hall_effect_breakout-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AH180N-WG-7 H1
+U 1 1 57F18F20
+P 4650 4350
+F 0 "H1" H 4650 4350 60  0000 C CNN
+F 1 "AH180N-WG-7" H 4900 4150 20  0000 C CNN
+F 2 "hall_effect_breakout:AH180N-WG-7" H 4650 4450 60  0001 C CNN
+F 3 "" H 4650 4450 60  0000 C CNN
+	1    4650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L TCS40DLRLFCT H2
+U 1 1 57F1AF9E
+P 6100 4350
+F 0 "H2" H 6100 4350 60  0000 C CNN
+F 1 "TCS40DLRLFCT" H 6350 4150 20  0000 C CNN
+F 2 "hall_effect_breakout:TCS40DLR,LF" H 6100 4450 60  0001 C CNN
+F 3 "" H 6100 4450 60  0000 C CNN
+	1    6100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 57F1B0C3
+P 4650 4950
+F 0 "#PWR01" H 4650 4700 50  0001 C CNN
+F 1 "GND" H 4650 4800 50  0000 C CNN
+F 2 "" H 4650 4950 50  0000 C CNN
+F 3 "" H 4650 4950 50  0000 C CNN
+	1    4650 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 57F1B0DB
+P 6100 4950
+F 0 "#PWR02" H 6100 4700 50  0001 C CNN
+F 1 "GND" H 6100 4800 50  0000 C CNN
+F 2 "" H 6100 4950 50  0000 C CNN
+F 3 "" H 6100 4950 50  0000 C CNN
+	1    6100 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4800 4650 4950
+Wire Wire Line
+	6100 4800 6100 4950
+$Comp
+L VCC #PWR03
+U 1 1 57F1B209
+P 5350 4100
+F 0 "#PWR03" H 5350 3950 50  0001 C CNN
+F 1 "VCC" H 5350 4250 50  0000 C CNN
+F 2 "" H 5350 4100 50  0000 C CNN
+F 3 "" H 5350 4100 50  0000 C CNN
+	1    5350 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 4100 5350 4350
+Wire Wire Line
+	5350 4350 5250 4350
+$Comp
+L VCC #PWR04
+U 1 1 57F1B23A
+P 6800 4100
+F 0 "#PWR04" H 6800 3950 50  0001 C CNN
+F 1 "VCC" H 6800 4250 50  0000 C CNN
+F 2 "" H 6800 4100 50  0000 C CNN
+F 3 "" H 6800 4100 50  0000 C CNN
+	1    6800 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 4100 6800 4350
+Wire Wire Line
+	6800 4350 6700 4350
+$Comp
+L CONN_01X04 P1
+U 1 1 57F1B260
+P 5500 3150
+F 0 "P1" H 5500 3400 50  0000 C CNN
+F 1 "CONN_01X04" V 5600 3150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 5500 3150 50  0001 C CNN
+F 3 "" H 5500 3150 50  0000 C CNN
+	1    5500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR05
+U 1 1 57F1B3C2
+P 5150 2900
+F 0 "#PWR05" H 5150 2750 50  0001 C CNN
+F 1 "VCC" H 5150 3050 50  0000 C CNN
+F 2 "" H 5150 2900 50  0000 C CNN
+F 3 "" H 5150 2900 50  0000 C CNN
+	1    5150 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3000 5150 3000
+Wire Wire Line
+	5150 3000 5150 2900
+$Comp
+L GND #PWR06
+U 1 1 57F1B44A
+P 5150 3400
+F 0 "#PWR06" H 5150 3150 50  0001 C CNN
+F 1 "GND" H 5150 3250 50  0000 C CNN
+F 2 "" H 5150 3400 50  0000 C CNN
+F 3 "" H 5150 3400 50  0000 C CNN
+	1    5150 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3300 5150 3300
+Wire Wire Line
+	5150 3300 5150 3400
+Wire Wire Line
+	4650 3900 4650 3650
+Text Label 4650 3650 3    20   ~ 0
+AH180-OUT
+Text Label 5100 3200 0    20   ~ 0
+AH180-OUT
+Wire Wire Line
+	5300 3100 5100 3100
+Wire Wire Line
+	5300 3200 5100 3200
+Wire Wire Line
+	6100 3900 6100 3650
+Text Label 6100 3650 3    20   ~ 0
+TCS40-OUT
+Text Label 5100 3100 0    20   ~ 0
+TCS40-OUT
+NoConn ~ 1050 -300
+$EndSCHEMATC

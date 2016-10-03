@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AH180N-WG-7
+D Digital Switch Omnipolar Switch Open Drain Hall Effect SC-59-3
+K AH180N-WG-7
+F http://www.diodes.com/_files/datasheets/AH180N.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TCS40DLRLFCT
+D Digital Switch Omnipolar Switch Open Drain Hall Effect SOT-23F
+K TCS40DLR,"TCS40DLR,LF"
+F http://toshiba.semicon-storage.com/info/docget.jsp?did=30105&prodName=TCS40DLR
+$ENDCMP
+#
+#End Doc Library
