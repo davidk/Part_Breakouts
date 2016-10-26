@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CvPcb (2014-jan-25)-product date = Wed 18 Feb 2015 07:10:40 PM PST
+
+BeginCmp
+TimeStamp = /54E54842;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E55124;
+Reference = GND1;
+ValeurCmp = CONN_1;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E547BF;
+Reference = OUTPUT1;
+ValeurCmp = CONN_1;
+IdModule  = Connect:1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E54BA7;
+Reference = U1;
+ValeurCmp = 74AHC1G14;
+IdModule  = SMD_Packages:SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E54BB9;
+Reference = U2;
+ValeurCmp = 74AHC1G14;
+IdModule  = SMD_Packages:SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E54BC4;
+Reference = U3;
+ValeurCmp = 74AHC1G14;
+IdModule  = SMD_Packages:SOT23-5;
+EndCmp
+
+EndListe
