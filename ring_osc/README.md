@@ -10,7 +10,7 @@ A [ring oscillator](https://en.wikipedia.org/wiki/Ring_oscillator) that was used
 
 * 3x SN74LVC1GU04DBVR
 
-* 2x 2-pin headers (input, output and power)
+* 2x 2-pin 2.54mm/0.1" headers (for input/output and power)
 
 ## Assembly
 
