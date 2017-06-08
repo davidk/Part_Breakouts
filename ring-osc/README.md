@@ -1,10 +1,10 @@
 # Ring oscillator
 
-A [ring oscillator](https://en.wikipedia.org/wiki/Ring_oscillator) that was used for a demo.
+A [ring oscillator](https://en.wikipedia.org/wiki/Ring_oscillator) that was used for a demo. Gerbers are setup for milling on FR-1. Please re-generate to fulfill your fab house's requirements if you're going that route.
 
 ![Ring Oscillator KiCAD PCB](ring_osc.png)
 
-(Yes those little ears on the edges of the copper fill do get milled too. The board isn't all that big, so there isn't much waste.)
+(The little ears on the edges of the copper fill don't get milled off. The board isn't all that big, so there isn't much waste.)
 
 ## Parts used:
 
