@@ -9,7 +9,7 @@ Most of these boards are designed to be quickly fabricated using a CNC mill (cur
 
 This means the boards/parts have been tested with:
 
-* FR-1 substrate (will not survive extended rework/reflow)
+* FR-1 substrate (will not survive extended rework/reflow/shearing mechanical stresses)
 
 * Usually built around wide trace/spacing rules for fast milling
   1/32 (usually) bit use.
