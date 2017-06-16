@@ -24,6 +24,4 @@ Designs here try to minimize use of:
 
 # License
 
-Unless otherwise specified for some reason, the breakouts in this repository are:
-
-[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
+Unless otherwise specified for some reason, the breakouts in this repository are [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
