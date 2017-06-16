@@ -21,3 +21,9 @@ Designs here try to minimize use of:
 * Vias
 
 * Double sided designs (edge finding/registration makes things harder on 'go fast' prototypes)
+
+# License
+
+Unless otherwise specified for some reason, the breakouts in this repository are:
+
+[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
